@@ -182,12 +182,9 @@ contribute, you do not need to do both.
 
 ## More Information
 
-<<<<<<< HEAD
+
 More information on BOSA Accessibility Check can be found on its GitHub site,
 [http://openfed.github.io/AccessibilityCheck/](http://openfed.github.io/AccessibilityCheck/). This site provides:
-=======
-More information on HTML_CodeSniffer can be found on its GitHub site,
-[http://squizlabs.github.io/HTML_CodeSniffer/](http://squizlabs.github.io/HTML_CodeSniffer/). This site provides:
 
 * Information on the tests performed (and messages emitted) by HTML_CodeSniffer's standards, organised by conformance level and Success Criterion;
 * A source test area that allows you to try out HTML_CodeSniffer with your own HTML source code; and
@@ -206,6 +203,5 @@ Special thanks to:
 ## License
 
 Licensed under [the BSD 3-Clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
->>>>>>> 783c78fe613037fbdf86ad93b9629803fac83de9
 
 - A link to the BOSA Accessibility Check bookmarklet, letting you check other pages using the pop-up auditor interface.
