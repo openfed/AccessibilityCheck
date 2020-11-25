@@ -10,7 +10,7 @@ This is a fork of [HTML_CodeSniffer](https://github.com/squizlabs/HTML_CodeSniff
 
 ### Standards included
 
-By default, BOSA Accessiblity Check comes with standards that cover the three conformance
+By default, BOSA Accessibility Check comes with standards that cover the three conformance
 levels of the <abbr title="World Wide Web Consortium">W3C</abbr> [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/),
 and the <abbr title="United States of America">U.S.</abbr> [Section 508](http://section508.gov/index.cfm?fuseAction=stdsdoc) legislation.
 It also provides tools to write your own standards, which can be useful in situations
@@ -25,8 +25,8 @@ BOSA Accessiblity Check can be called in multiple ways:
 - It also comes with a pop-up auditor interface, accessible via a bookmarklet,
   letting you browse through messages emitted from one of the defined standards.
   Where possible, the auditor also points you to the HTML element causing the problem.
-- It can also be run on the command line with the assistance of a headless browser app.
-- Using as a Node.js module, installed with npm: `npm i --save html_codesniffer`
+- It can also be run from the command line with the assistance of a headless browser app.
+- Used as a Node.js module, installed with npm: `npm i --save html_codesniffer`
 
 ### Licence
 
@@ -37,8 +37,8 @@ please see the file "licence.txt".
 
 ### Building the auditor
 
-The BOSA Accessiblity Check auditor can be built using [node.js](https://nodejs.org/) and the Grunt
-tasker (http://gruntjs.com/). It has been tested with the latest version of node.js
+The BOSA Accessiblity Check auditor can be built using [node.js](https://nodejs.org/) and the [Grunt
+tasker](http://gruntjs.com/). It has been tested with the latest version of node.js
 (at time of writing: version 6.0) and Grunt, but should also work with recent
 earlier versions.
 
@@ -62,9 +62,8 @@ replace the directory at the start (//openfed.github.io/AccessibilityCheck/build
 
 ### Debug build
 
-If you are developing using BOSA Accessiblity Check and require the code not minified for
-debugging purposes, follow the above steps, but run <code>grunt build-debug</code>
-> > > > > > > (instead of just build). This will combine the files as normal, but not minify them.
+If you are developing using BOSA Accessibility Check and require the code not minified for
+debugging purposes, follow the above steps, but run <code>grunt build-debug</code> (instead of just build). This will combine the files as normal, but not minify them.
 
 ## Command-Line processing
 
@@ -155,7 +154,7 @@ dom.window.HTMLCS_RUNNER.run("WCAG2AA");
 
 ## Translations
 
-HTML*CodeSniffer supports \_very* basic string translations. The auditor will use the current language of the document it is being run in (e.g. `<html lang="en">`). A language code can be supplied if you need to tell HTML_CodeSniffer which language you want to use.
+HTML_CodeSniffer supports *\_very* basic string translations. The auditor will use the current language of the document it is being run in (e.g. `<html lang="en">`). A language code can be supplied if you need to tell HTML_CodeSniffer which language you want to use.
 
 Example usage:
 
@@ -182,10 +181,6 @@ contribute, you do not need to do both.
 
 ## More Information
 
-<<<<<<< HEAD
-More information on BOSA Accessibility Check can be found on its GitHub site,
-[http://openfed.github.io/AccessibilityCheck/](http://openfed.github.io/AccessibilityCheck/). This site provides:
-=======
 More information on HTML_CodeSniffer can be found on its GitHub site,
 [http://squizlabs.github.io/HTML_CodeSniffer/](http://squizlabs.github.io/HTML_CodeSniffer/). This site provides:
 
@@ -206,6 +201,3 @@ Special thanks to:
 ## License
 
 Licensed under [the BSD 3-Clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
->>>>>>> 783c78fe613037fbdf86ad93b9629803fac83de9
-
-- A link to the BOSA Accessibility Check bookmarklet, letting you check other pages using the pop-up auditor interface.
