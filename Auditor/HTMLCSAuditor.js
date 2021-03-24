@@ -1570,7 +1570,7 @@ _global.HTMLCSAuditor = new function()
         for (i in window) {
             if (pattern.test(i) === true) {
                 var standard = window[i];
-                if (standard.sniffs && standard.name) {
+                if (standard.sniffs && standard.name && standard.shortdescription) {
                     standards.push(i.substr(7));
                 }
             }
