@@ -14,6 +14,7 @@
 _global.HTMLCS_WCAG2AAA = {
     name: 'WCAG2AAA',
     description: 'Web Content Accessibility Guidelines (WCAG) 2.1 AAA',
+    shortdescription: 'WCAG 2.1 AAA',
     sniffs: [
         'Principle1.Guideline1_1.1_1_1',
         'Principle1.Guideline1_2.1_2_1',

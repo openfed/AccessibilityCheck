@@ -14,6 +14,7 @@
 _global.HTMLCS_Section508 = {
     name: 'Section508',
     description: 'U.S. Section 508 Standard',
+    shortdescription: 'US Section 508',
     sniffs: [
         'A',
         'B',
