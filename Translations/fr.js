@@ -323,7 +323,6 @@ _global.translation['fr'] = {
     ,"2_2_6.Check" : 'Vérifiez que les utilisateurs sont avertis de la durée de toute inactivité de l\'utilisateur qui pourrait entraîner une perte de données, à moins que les données ne soient conservées pendant plus de 20 heures lorsque l\'utilisateur n\'entreprend aucune action.'
 
 
-
     //2_3_1.js
     ,"2_3_1_G19,G176" : 'Vérifier qu\'aucun composant du contenu ne clignote plus de trois fois au cours d\'une période d\'une seconde ou que la taille de la zone de clignotement est suffisamment petite.'
 
@@ -384,7 +383,6 @@ _global.translation['fr'] = {
 
     //2_5_1.js
     ,"2_5_1.Check" : 'Vérifiez que toutes les fonctionnalités qui utilisent des gestes multipoints ou basés sur le chemin peuvent être utilisées avec un seul pointeur sans geste basé sur le chemin, sauf si un geste multipoint ou basé sur le chemin est essentiel.'
-
 
 
 
