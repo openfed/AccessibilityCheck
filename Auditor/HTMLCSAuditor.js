@@ -672,7 +672,7 @@ _global.HTMLCSAuditor = new function()
             var standard     = standards[i];
             var option       = _doc.createElement('option');
             option.value     = standard;
-            option.innerHTML = _global['HTMLCS_' + standard].name;
+            option.innerHTML = _global['HTMLCS_' + standard].shortdescription;
 
             if (standard === _standard) {
                 option.selected = true;
@@ -1570,7 +1570,7 @@ _global.HTMLCSAuditor = new function()
         for (i in window) {
             if (pattern.test(i) === true) {
                 var standard = window[i];
-                if (standard.sniffs && standard.name) {
+                if (standard.sniffs && standard.name && standard.shortdescription) {
                     standards.push(i.substr(7));
                 }
             }
