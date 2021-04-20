@@ -201,3 +201,8 @@ Special thanks to:
 ## License
 
 Licensed under [the BSD 3-Clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
+=======
+More information on BOSA Accessibility Check can be found on its GitHub site,
+[http://openfed.github.io/AccessibilityCheck/](http://openfed.github.io/AccessibilityCheck/). This site provides:
+
+- A link to the BOSA Accessibility Check bookmarklet, letting you check other pages using the pop-up auditor interface.
